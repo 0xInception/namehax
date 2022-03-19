@@ -67,10 +67,6 @@ fn main() {
     }
 
     println!("Done!");
-    /*
-
-    //let abc = read_bytes(handle,36351600,&mut buf).unwrap();
-    //println!("{}",String::from_utf8(buf.to_vec()).unwrap()); */
 }
 fn write_memory(handle: *mut c_void, address: i32, buf: &mut [u8]) -> Result<(), String> {
     unsafe {
