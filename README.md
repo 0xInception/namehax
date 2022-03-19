@@ -4,3 +4,10 @@ Namehax is a tool that lets you bypass the flagged name screen on the league cli
 
 ## How to use?
 Just run `namehax.exe` after opening the league cient. Then login.
+
+## Where to download?
+Head over to [releases](https://github.com/0xInception/namehax/releases/tag/v1.0.0).
+
+## How to build?
+Make sure you have [rust](https://rustup.rs/) installed.
+Run `cargo build`
